@@ -1,0 +1,24 @@
+# Tomcat
+server:
+  port: 8020
+  servlet:
+    context-path: /
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: cloud-nacos
+    #  profiles:
+    # 环境配置
+  #    active: @profiles.active@
+  # Nacos帮助文档: https://nacos.io/zh-cn/docs/concepts.html
+  # Nacos认证信息
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        # 注册到 nacos 的指定 namespace，默认为 public
+        namespace: public

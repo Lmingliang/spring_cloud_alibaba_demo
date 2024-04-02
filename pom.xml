@@ -10,6 +10,10 @@
     <version>1.0.0</version>
     <modules>
         <module>cloud-gateway</module>
+        <module>cloud-nacos</module>
+        <module>service-order</module>
+        <module>service-stock</module>
+        <module>service-openfeign</module>
     </modules>
 
     <name>spring_cloud_alibaba_demo</name>
@@ -19,12 +23,12 @@
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <hutool.version>5.8.22</hutool.version>
-        <lombok.version>1.18.30</lombok.version>
-        <rocketmq.version>5.0.0</rocketmq.version>
         <spring.boot.version>3.0.2</spring.boot.version>
         <spring.cloud.version>2022.0.0</spring.cloud.version>
         <spring.cloud.alibaba.version>2022.0.0.0</spring.cloud.alibaba.version>
+        <hutool.version>5.8.22</hutool.version>
+        <lombok.version>1.18.30</lombok.version>
+        <rocketmq.version>5.0.0</rocketmq.version>
     </properties>
 
     <dependencies>
